@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+body {
+    font-family: 'Baskerville', cursive;
+    align-content: center;
+    background-color: lightgrey;
+    text-align: center;
+
+}
+
+h2{
+    font-family: 'Lobster two', cursive;
+    font-size: 50px;
+    margin-top: 187px;
+    background-color: grey;
+    color: white;
+
+}
+
+h3{
+    font-family: 'Lobster two', cursive;
+    font-size: 30px;
+    background-color: grey;
+    color: white;
+
+}
+
+h4{
+    font-size: 17px;
+}
+
+.bts{
+    display: flex;  
+    justify-content: center;
+    margin-bottom: -140px;  
+}
+
+.btssio{
+    margin-bottom: px;
+    padding-top:0;
+    margin-bottom: 40px;
+}
+
+.p1{
+    margin-left: 240px;
+    text-align: justify;
+    margin-right: 240px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.imgipssi{
+    margin-bottom: -10px;
+}
+
+.imgslam{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.imgsisr{
+    text-align: left;
+}
+
+.slam{
+    margin-bottom: 20px;
+    /* margin-right: -200px; */
+    margin-left: auto;
+    /* margin-right:20px ; */
+    font-size: 18px;
+    /* padding-right: px; */
+    text-align: center;
+    /* padding-right: 0px; */
+    width: 600px;
+    padding-right: 70px;
+}
+.pslam{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+
+.sisr{
+    margin-bottom: 17px;
+    /* margin-left: 150px; */
+    margin-right: auto;
+    background-color: light grey;
+    font-size: 18px;
+    /* padding-left:00px; */
+    width: 600px;
+    padding-left: 40px;
+}
+
+.psisr{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.deboucheslam{
+    margin-top: 10px;
+    text-align: justify;
+    padding-left: 20px;
+    font-style: italic;
+}
+
+.debouchesisr{
+    margin-top: 10px;
+    text-align: justify;
+    padding-right: 20px;
+    font-style: italic;
+}
+
+.block1{
+    display: flex;
+
+}
+
+.block2{
+    display: flex;
+}
+
+.cybersecu{
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.cybersecup1{
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    padding: auto;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.cybersecup2{
+        margin-top: 40px;
+        text-align: justify;
+        padding-right: 20px;
+        padding-left: 20px;
+        display: flex;
+        font-size: 18px;
+}
+
+.pb1{
+    margin-right: 20px;
+    margin-top: 110px;
+}
+
+.imgcybersecu{
+    margin-left: 400px ;
+    padding-left: 20px;
+}
+
+.pb2{
+    margin-left: 20px;
+}
+
+.imgcybersecu2{
+    margin-top: 40px;
+
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navp1{
+    height: 117px;
+    background-color: grey;
+    color: aliceblue;
+    font-family: 'lobster', cursive;
+    padding-top: 70px;
+    transition: 0s;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+nav a:hover{
+    transition: 0.1s;
+    opacity: 100% ;
+    color: pink;
+}
+
+nav a{
+    text-decoration: none;
+    margin: auto;
+    color:white;
+    padding: 10px;
+    font-family: 'Baskerville', cursive;
+    align-items: center;
+}
+
+.myriam{
+    margin: 20px;
+    font-size: 60px;
+    padding-bottom: 7px;
+    margin-top: -10px;
+}
+
+li{
+list-style:none;
+color:#FFF;
+padding: px;
+text-decoration:none;
+}
+
+nav ul li {
+    list-style: none;
+    /* line-height:44px; */
+    display: inline-block;
+    background-color:px;
+}
+
+nav ul li a {
+    padding:10px;
+    text-decoration:none;
+    list-style: none;
+}
+
+/* li a:hover {
+    border-bottom:3px #FFF solid;
+} */
+    
+nav ul li ul { 
+    display:none; /* Rend le menu déroulant caché par défaut */
+} 
+     
+nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+    z-index:99999;
+    display: list-item;
+    position: absolute ;
+    list-style: none;
+    background-color: grey;
+    background: rgba(80,80,80,0.5);
+    width: 250px;
+    padding: auto; 
+}
+     
+nav ul li:hover ul li {
+    float:left;
+}
+
+
+footer{
+    margin-top: 50px;
+}

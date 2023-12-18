@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+
+body {
+    font-family: 'Lobster two', cursive;
+    align-content: center;
+    
+    text-align: center;
+
+}
+video{
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+    opacity: 95%;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navp1{
+    height: 117px;
+    background-color: grey;
+    color: aliceblue;
+    font-family: 'lobster', cursive;
+    padding-top: 70px;
+    transition: 0s;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+nav a:hover{
+    transition: 0.1s;
+    opacity: 100% ;
+    color: pink;
+}
+
+nav a{
+    text-decoration: none;
+    margin: auto;
+    color:white;
+    padding: 10px;
+    font-family: 'Baskerville', cursive;
+    align-items: center;
+}
+
+.myriam{
+    margin: 20px;
+    font-size: 60px;
+    padding-bottom: 7px;
+    margin-top: -10px;
+}
+
+li{
+list-style:none;
+color:#FFF;
+padding: px;
+text-decoration:none;
+}
+
+nav ul li {
+    list-style: none;
+    /* line-height:44px; */
+    display: inline-block;
+    background-color:px;
+}
+
+nav ul li a {
+    padding:10px;
+    text-decoration:none;
+    list-style: none;
+}
+
+/* li a:hover {
+    border-bottom:3px #FFF solid;
+} */
+    
+nav ul li ul { 
+    display:none; /* Rend le menu déroulant caché par défaut */
+} 
+     
+nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+    z-index:99999;
+    display: list-item;
+    position: absolute ;
+    list-style: none;
+    background-color: grey;
+    background: rgba(80,80,80,0.5);
+    width: 250px;
+    padding: auto; 
+}
+     
+nav ul li:hover ul li {
+    float:left;
+}
+
+h1{
+    background-color: grey; 
+    margin-top: 200px;
+    color: white;
+    font-size: 50px;
+}
+
+.logo{
+    height: 154.09 px;
+}
+
+
+.id{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px;
+    width: 500px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 20px;
+    opacity: 70%;
+    transition: 1s;
+    background-color: grey;
+}
+
+.titreid{
+    align-items: center;
+    
+
+}
+
+.id:hover{
+    transition: 1s;
+    opacity: 100% ;
+}
+
+.liens img{
+    justify-content: space-between;
+    padding: 2px;
+    border-radius: 50px;
+    width: 50px;
+
+}
+.docst{
+    border-radius: 50%;
+}
+footer{
+    margin-top: 443px;
+}

@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Lobster+Two&display=swap');
+
+body {
+    font-family: 'Lobster', cursive;
+    align-content: center;
+    background-color: lightgrey;
+    text-align: center;
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navp1{
+    height: 117px;
+    background-color: grey;
+    color: aliceblue;
+    font-family: 'lobster', cursive;
+    padding-top: 70px;
+    transition: 0s;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+nav a:hover{
+    transition: 0.1s;
+    opacity: 100% ;
+    color: pink;
+}
+
+nav a{
+    text-decoration: none;
+    margin: auto;
+    color:white;
+    padding: 10px;
+    font-family: 'Baskerville', cursive;
+    align-items: center;
+}
+
+.myriam{
+    margin: 20px;
+    font-size: 60px;
+    padding-bottom: 7px;
+    margin-top: -10px;
+}
+
+li{
+list-style:none;
+color:#FFF;
+padding: px;
+text-decoration:none;
+}
+
+nav ul li {
+    list-style: none;
+    /* line-height:44px; */
+    display: inline-block;
+    background-color:px;
+}
+
+nav ul li a {
+    padding:10px;
+    text-decoration:none;
+    list-style: none;
+}
+
+/* li a:hover {
+    border-bottom:3px #FFF solid;
+} */
+    
+nav ul li ul { 
+    display:none; /* Rend le menu déroulant caché par défaut */
+} 
+     
+nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+    z-index:99999;
+    display: list-item;
+    position: absolute ;
+    list-style: none;
+    background-color: grey;
+    background: rgba(80,80,80,0.5);
+    width: 250px;
+    padding: auto; 
+}
+     
+nav ul li:hover ul li {
+    float:left;
+}
+
+.vtechintro{
+    font-size: 17px;
+    font-family: "Baskerville", cursive;
+    color: black ;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.vtech1{
+    /* border: solid; */
+    /* border-radius: 20px; */
+    /* background-color: white;
+    opacity: 70%;
+    transition: 1s; */
+    font-family: "Baskerville", cursive;
+    font-size: 17px;
+}
+
+.vtech2{
+    /* border: solid; */
+    /* border-radius: 20px; */
+    /* background-color: white;
+    opacity: 70%;
+    transition: 1s; */
+    font-family: "Baskerville", cursive;
+    font-size: 17px;
+}
+.fluxrss{
+    /* border: solid; */
+    /* border-radius: 20px; */
+    /* background-color: white;
+    opacity: 70%;
+    transition: 1s; */
+    font-family: "Baskerville", cursive;
+    font-size: 17px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+/* .vtech1:hover{
+    opacity: 100%;
+    transition: 1s;
+}
+.vtech2:hover{
+    opacity: 100%;
+    transition: 1s;
+} */
+h6{
+    font-family: 'Lobster two', cursive;
+    font-size: 17px;
+}
+
+h3{
+    font-family: "Lobster two", cursive;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-family: "Lobster two", cursive;
+    text-decoration: underline overline darkcyan;
+}
+
+h2{
+    margin-top: 209px;
+    margin-bottom: 5px;
+    background-color: grey;
+    color: white;
+    font-size: 50px;
+    font-family: "Lobster two", cursive;
+}
+
+.vtech1p1{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+/* img{
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+    opacity: 100%;
+} */
+.iris2{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+
+.sources{
+    margin-top: 20px;
+    margin-right: 1100px;
+    font-size: 15px;
+    background-color: grey;
+    font-family: 'Baskerville', cursive;
+    
+}
+
+footer{
+    margin-top: 7px;
+}
