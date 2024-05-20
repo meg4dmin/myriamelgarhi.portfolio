@@ -5,9 +5,8 @@
 
 
 body {
-    font-family: 'Lobster two', cursive;
+    font-family: 'arial', cursive;
     align-content: center;
-    
     text-align: center;
 
 }
@@ -16,6 +15,10 @@ video{
     right: 0px;
     z-index: -1;
     opacity: 95%;
+    top:0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 *{
@@ -23,54 +26,41 @@ video{
     margin: 0px;
 }
 
+/* Début de la barre de Navigation ********************************************************************************************** */
 .navp1{
-    height: 117px;
+    position: fixed;
     background-color: grey;
-    color: aliceblue;
+    color: palegreen;
     font-family: 'lobster', cursive;
-    padding-top: 70px;
+    padding-bottom: 7px;
     transition: 0s;
-    left: 0;
     top: 0;
     width: 100%;
     z-index: 1000;
+    left: 0;
+    right: 0;
 }
-
-
+.navp1 a.active {
+    color: pink;
+}
 nav a:hover{
     transition: 0.1s;
     opacity: 100% ;
     color: pink;
 }
-
 nav a{
     text-decoration: none;
     margin: auto;
     color:white;
     padding: 10px;
-    font-family: 'Baskerville', cursive;
+    font-family: 'arial', cursive;
     align-items: center;
 }
-
-.myriam{
-    margin: 20px;
-    font-size: 60px;
-    padding-bottom: 7px;
-    margin-top: -10px;
-}
-
-li{
-list-style:none;
-color:#FFF;
-padding: px;
-text-decoration:none;
-}
-
 nav ul li {
     list-style: none;
     /* line-height:44px; */
     display: inline-block;
-    background-color:px;
+    /* background-color:; */
 }
 
 nav ul li a {
@@ -78,15 +68,9 @@ nav ul li a {
     text-decoration:none;
     list-style: none;
 }
-
-/* li a:hover {
-    border-bottom:3px #FFF solid;
-} */
-    
 nav ul li ul { 
     display:none; /* Rend le menu déroulant caché par défaut */
 } 
-     
 nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
     z-index:99999;
     display: list-item;
@@ -97,10 +81,27 @@ nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class 
     width: 250px;
     padding: auto; 
 }
-     
 nav ul li:hover ul li {
     float:left;
 }
+/* Fin de la barre de Navigation ********************************************************************************************** */
+
+.myriam{
+    text-align: left;
+    font-size: 27px;
+    padding-bottom: 10px;
+   
+}
+.myriam a{
+    padding: 10px;
+}
+li{
+list-style:none;
+color:#FFF;
+/* padding: px; */
+text-decoration:none;
+}
+
 
 h1{
     background-color: grey; 
@@ -149,6 +150,42 @@ h1{
 .docst{
     border-radius: 50%;
 }
-footer{
-    margin-top: 443px;
+/* footer{
+    margin-top: 350px;
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    background-color: #FFFb;
+    border-radius: 20px;
+    padding: 5px;
+} */
+footer {
+    background-color: #FFFb;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 5000px;
+    max-height: 1200px;
+    margin: 0 auto;
+}
+
+.liens img{
+    justify-content: space-between;
+    padding: 2px;
+    border-radius: 50px;
+    width: 50px;
+    margin-top: 10px;
+
+}
+
+.liens{
+    margin-top: 500px;
 }

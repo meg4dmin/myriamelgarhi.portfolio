@@ -3,44 +3,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
 
 body {
-    font-family: 'Baskerville', cursive;
+    font-family: 'arial', cursive;
     align-content: center;
     background-color: lightgrey;
     text-align: center;
-
 }
-
-h2{
-    font-family: 'Lobster two', cursive;
-    font-size: 50px;
-    margin-top: 187px;
+.container {
+    max-width: 5000px;
+    margin: 0 auto;
+}
+h1{
+    font-family: 'arial', cursive;
+    font-size: 35px;
+    margin-top: 70px;
     background-color: grey;
     color: white;
-
+    position: absolute;
+    margin-left: 30px;
+    padding: 5px;
 }
-
-h3{
-    font-family: 'Lobster two', cursive;
+ h2{
+    font-family: 'arial', cursive;
     font-size: 30px;
     background-color: grey;
     color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
 
+h3{
+    font-family: 'arial', cursive;
+    font-size: 30px;
+    background-color: grey;
+    color: white;   
 }
 
 h4{
-    font-size: 17px;
+    font-family: 'arial', cursive;
+    font-size: 15px;
 }
 
 .bts{
     display: flex;  
     justify-content: center;
-    margin-bottom: -140px;  
 }
 
 .btssio{
-    margin-bottom: px;
+    margin-bottom: 0px;
     padding-top:0;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 .p1{
@@ -56,7 +68,7 @@ img{
 }
 
 .imgipssi{
-    margin-bottom: -10px;
+    margin-top: 130px;
 }
 
 .imgslam{
@@ -138,11 +150,11 @@ img{
     display: flex;
     padding: auto;
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: 60px;
 }
 
 .cybersecup2{
-        margin-top: 40px;
+        margin-top: 30px;
         text-align: justify;
         padding-right: 20px;
         padding-left: 20px;
@@ -169,61 +181,45 @@ img{
 
 }
 
-
 *{
     padding: 0px;
     margin: 0px;
 }
-
+/* ********************************************************************************************** */
 .navp1{
-    height: 117px;
-    background-color: grey;
-    color: aliceblue;
-    font-family: 'lobster', cursive;
-    padding-top: 70px;
-    transition: 0s;
     position: fixed;
-    left: 0;
+    background-color: grey;
+    color: palegreen;
+    font-family: 'lobster', cursive;
+    padding-bottom: 7px;
+    transition: 0s;
     top: 0;
     width: 100%;
     z-index: 1000;
+    left: 0;
+    right: 0;
 }
-
-
+.navp1 a.active {
+    color: pink;
+}
 nav a:hover{
     transition: 0.1s;
     opacity: 100% ;
     color: pink;
 }
-
 nav a{
     text-decoration: none;
     margin: auto;
     color:white;
     padding: 10px;
-    font-family: 'Baskerville', cursive;
+    font-family: 'arial', cursive;
     align-items: center;
 }
-
-.myriam{
-    margin: 20px;
-    font-size: 60px;
-    padding-bottom: 7px;
-    margin-top: -10px;
-}
-
-li{
-list-style:none;
-color:#FFF;
-padding: px;
-text-decoration:none;
-}
-
 nav ul li {
     list-style: none;
     /* line-height:44px; */
     display: inline-block;
-    background-color:px;
+    /* background-color:; */
 }
 
 nav ul li a {
@@ -231,15 +227,9 @@ nav ul li a {
     text-decoration:none;
     list-style: none;
 }
-
-/* li a:hover {
-    border-bottom:3px #FFF solid;
-} */
-    
 nav ul li ul { 
     display:none; /* Rend le menu déroulant caché par défaut */
 } 
-     
 nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
     z-index:99999;
     display: list-item;
@@ -250,12 +240,144 @@ nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class 
     width: 250px;
     padding: auto; 
 }
-     
 nav ul li:hover ul li {
     float:left;
 }
+/* ********************************************************************************************** */
+li{
+list-style:none;
+color:#FFF;
+padding: px;
+text-decoration:none;
+}
+.myriam{
+    text-align: left;
+    font-size: 27px;
+    padding-bottom: 10px;
+   
+}
+.myriam a{
+    padding: 10px;
+}
+footer {
+    background-color: #FFFb;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    width: 100%;
+    margin-top: 2rem;
+}
+@media only screen and (max-width: 600px) {
+    h1{
+    font-family: 'Lobster two', cursive;
+    font-size: 40px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    /* Centrer le contenu */
+    .container {
+        padding: 0 10px;
+        /* position: absolute; */
+        width: 100%;
+    }
+
+    /* Ajuster les marges pour le contenu principal */
+    .bts, .cybersecu {
+        margin: 20px 0;
+    }
+
+    /* Réduire la taille des images */
+    .imgipssi img, .imgslam img, .imgsisr img, .imgcybersecu img, .imgcybersecu2 img, .btssioipssi img, .cybersecu img {
+        height: auto;
+        width: 150px;
+        height: 100px;
+    }
+
+    /* Ajuster la largeur des éléments */
+    .slam, .sisr {
+        width: 100%;
+    }
+
+    /* Ajuster la taille des paragraphes */
+    .p1/* .pslam, .psisr, .deboucheslam, .debouchesisr, .cybersecup1, .cybersecup2 */{
+        font-size: 16px;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
+
+    /* Centrer le texte */
+    .pslam, .psisr, .deboucheslam, .debouchesisr, .cybersecup1, .cybersecup2 {
+        text-align: center;
+    }
 
 
-footer{
-    margin-top: 50px;
+    /* Ajuster la taille du footer */
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Ajuster la taille des polices */
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    /* Ajuster la largeur des éléments principaux */
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Ajuster les marges pour le contenu principal */
+    .bts, .cybersecu {
+        margin: 30px auto;
+    }
+
+    /* Ajuster la largeur des images */
+    .imgipssi img, .imgslam img, .imgsisr img, .imgcybersecu img, .imgcybersecu2 img {
+        max-width: 80%;
+    }
+
+    /* Ajuster la taille des paragraphes */
+    .p1, .pslam, .psisr, .deboucheslam, .debouchesisr, .cybersecup1, .cybersecup2 {
+        font-size: 18px;
+    }
+
+    /* Centrer le texte */
+    .pslam, .psisr, .deboucheslam, .debouchesisr, .cybersecup1, .cybersecup2 {
+        text-align: justify;
+    }
+
+    /* Centrer les images */
+    .imgipssi, .imgslam, .imgsisr, .imgcybersecu, .imgcybersecu2 {
+        text-align: center;
+    }
+
+    /* Ajuster la taille du footer */
+    footer {
+        padding: 20px;
+    }
 }

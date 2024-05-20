@@ -4,67 +4,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Lobster+Two&display=swap');
 
 body {
-    font-family: 'Lobster', cursive;
+    font-family: 'arial', cursive;
     align-content: center;
-    margin-top: 00px;
-    text-align: center;
     background-color: lightgrey;
-
+    text-align: center;
 }
 *{
     padding: 0px;
     margin: 0px;
 }
-
+.myriam{
+    text-align: left;
+    font-size: 27px;
+    padding-bottom: 10px;
+}
+.myriam a{
+    padding: 10px;
+}
+/* Début de la barre de Navigation ********************************************************************************************** */
 .navp1{
-    height: 117px;
-    background-color: grey;
-    color: aliceblue;
-    font-family: 'lobster', cursive;
-    padding-top: 70px;
-    transition: 0s;
     position: fixed;
-    left: 0;
+    background-color: grey;
+    color: palegreen;
+    font-family: 'lobster', cursive;
+    padding-bottom: 7px;
+    transition: 0s;
     top: 0;
     width: 100%;
     z-index: 1000;
+    left: 0;
+    right: 0;
 }
-
-
+.navp1 a.active {
+    color: pink;
+}
 nav a:hover{
     transition: 0.1s;
     opacity: 100% ;
     color: pink;
 }
-
 nav a{
     text-decoration: none;
     margin: auto;
     color:white;
     padding: 10px;
-    font-family: 'Baskerville', cursive;
+    font-family: 'arial', cursive;
     align-items: center;
 }
-
-.myriam{
-    margin: 20px;
-    font-size: 60px;
-    padding-bottom: 7px;
-    margin-top: -10px;
-}
-
-li{
-list-style:none;
-color:#FFF;
-padding: px;
-text-decoration:none;
-}
-
 nav ul li {
     list-style: none;
     /* line-height:44px; */
     display: inline-block;
-    background-color:px;
+    /* background-color:; */
 }
 
 nav ul li a {
@@ -72,15 +63,9 @@ nav ul li a {
     text-decoration:none;
     list-style: none;
 }
-
-/* li a:hover {
-    border-bottom:3px #FFF solid;
-} */
-    
 nav ul li ul { 
     display:none; /* Rend le menu déroulant caché par défaut */
 } 
-     
 nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
     z-index:99999;
     display: list-item;
@@ -91,63 +76,46 @@ nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class 
     width: 250px;
     padding: auto; 
 }
-     
 nav ul li:hover ul li {
     float:left;
 }
-
-/* .vju{
-    /* border: solid; */
-    /* border-radius: 20px; */
-    /* background-color: white; */
-    /* opacity: 70%;
-    transition: 1s;
-} */
-
+/* Fin de la barre de Navigation ********************************************************************************************** */
+h1{
+    font-family: 'arial', cursive;
+    font-size: 35px;
+    margin-top: 70px;
+    background-color: grey;
+    color: white;
+    position: absolute;
+    margin-left: 30px;
+    padding: 5px;
+}
+h3{
+    font-family: "arial", cursive;
+    margin-top: 97px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    text-decoration: underline overline darkcyan ;    
+}
 .vjuintro{
     font-size: 17px;
-    font-family: "Baskerville", cursive;
+    font-family: "arial", cursive;
     color: black ;
-    margin-bottom: 10px;
-    margin-top: 10px;
 }
 
 /* .vju:hover{
     opacity: 100%;
     transition: 1s;
 } */
-.sources{
-    margin-top: 20px;
-    margin-right: 1200px;
-    font-size: 15px;
-    background-color: grey;
-    font-family: 'Baskerville', cursive;
-}
 
 h6{
     font-family: 'Lobster two', cursive;
     font-size: 17px;
 }
 
-h2{
-    margin-top: 209px;
-    margin-bottom: 20px;
-    background-color: grey;
-    color: white;
-    font-size: 50px;
-    font-family: 'Lobster two', cursive;
-}
-
-h3{
-    font-family: "Lobster two", cursive;
-    margin-bottom: 10px;
-    font-size: 35px;
-    font-family: "Lobster two", cursive;
-    text-decoration: underline overline darkcyan ;    
-}
 
 .vjup1{
-    font-family: 'Baskerville', cursive;
+    font-family: 'arial', cursive;
     font-size: 17px;
     padding-left: 20px;
     padding-right: 20px;
@@ -168,19 +136,18 @@ h3{
 .cnil{
     height: 200px;
     width: 400px;
-    margin-top: 20px;
-    margin-bottom: 10px;
     border-radius: 20px;
-    position: relative;
-    left: 430px;
+    display: block;
+    margin: auto;
 }
-
+.t1{
+    font-weight: bold;
+}
 .dp2 img{
     height: 300px;
     width: 350;
     border-radius: 20px;
 }
-
 .dp2{display: flex;}
 
 .p2et3{
@@ -188,13 +155,20 @@ h3{
     padding-right: 20px;
 }
 
-/* img{
+.sources{
     position: absolute;
-    top: 187px;
-    right: 0px;
-    z-index: -1;
-    opacity: 100%;
-} */
-footer{
-    margin-top: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    background-color: grey;
+    font-family: 'arial', cursive;
+}
+footer {
+    background-color: #FFFb;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    width: 100%;
+    bottom: 0;
+    margin-top: 70px;
 }

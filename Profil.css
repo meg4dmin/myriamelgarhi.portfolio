@@ -12,7 +12,7 @@ video{
     right: 0px;
     z-index: -1;
     opacity: 95%;
-    margin-top: 187px;
+    margin-top: -93px;
 }
 *{
     padding: 0px;
@@ -22,14 +22,14 @@ video{
 
 
 .navp1{
-    height: 117px;
+    position: fixed;
+    height: 69px;
     background-color: grey;
-    color: aliceblue;
+    color: palegreen;
     font-family: 'lobster', cursive;
-    padding-top: 70px;
+    padding-top: 0px;
     transition: 0s;
-    /* position: fixed; */
-    left: 0;
+   
     top: 0;
     width: 100%;
     z-index: 1000;
@@ -47,15 +47,15 @@ nav a{
     margin: auto;
     color:white;
     padding: 10px;
-    font-family: 'Baskerville', cursive;
+    font-family: 'arial', cursive;
     align-items: center;
 }
 
 .myriam{
-    margin: 20px;
+   
     font-size: 60px;
     padding-bottom: 7px;
-    margin-top: -10px;
+    
 }
 
 li{
@@ -207,10 +207,18 @@ nav ul li:hover ul li {
 
 
 footer{
-    margin-top: 28px;
+   margin-top: 5px;
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    background-color: #FFFb;
+    border-radius: 20px;
+    padding: 5px;
 }
 .titre-profil{
-    margin-top: 23px;
+    margin-top: 123px;
     margin-bottom: 20px;
     background-color: grey;
     color: white;
@@ -222,4 +230,43 @@ footer{
     color: white;
     font-size: 26px;
     margin-top: 150px;
+}
+.navp1{
+    position: fixed;
+    height: 69px;
+    background-color: grey;
+    color: palegreen;
+    font-family: 'lobster', cursive;
+    padding-top: 0px;
+    transition: 0s;
+   
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+nav a:hover{
+    transition: 0.1s;
+    opacity: 100% ;
+    color: pink;
+}
+
+nav a{
+    text-decoration: none;
+    margin: auto;
+    color:white;
+    padding: 10px;
+    font-family: 'Baskerville', cursive;
+    text-align: left;
+}
+
+.myriam{
+    text-align: left;
+    font-size: 27px;
+    padding-bottom: 10px;
+   
+}
+.myriam a{
+    padding: 10px;
 }
